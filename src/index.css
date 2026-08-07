@@ -2,6 +2,9 @@
 
 @import "tailwindcss";
 
-body{
-  font-family: 'Poppins', 'sans-serif';
+/* Tailwind CSS v4 ke liye manual dark mode class variant configuration */
+@custom-variant dark (&:where(.dark, .dark *));
+
+body {
+  font-family: 'Poppins', sans-serif;
 }
