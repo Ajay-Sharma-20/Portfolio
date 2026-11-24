@@ -8,7 +8,7 @@ function Project() {
       title: "ChapterZero - Library Management System",
       category: "Full-Stack MERN",
       info: "Comprehensive digital library solution featuring admin & user dashboards, JWT authentication, and Cloudinary media integration for managing book collections.",
-      image: "/project_pic.jpg", // Public folder path
+      image: "/project_01.jpg", // Public folder path
       techStack: ["React.js", "Node.js", "MongoDB", "Express", "Tailwind CSS"],
       githubUrl: "https://github.com/sajaysharma/bookLibrary",
       demoUrl: "https://github.com/sajaysharma/bookLibrary"
@@ -18,7 +18,7 @@ function Project() {
       title: "Smart Career Guidance System",
       category: "ML & Web App",
       info: "Machine learning driven platform providing automated personalized career recommendations, dynamic skill mapping, and industry role analysis.",
-      image: "/project_pic.jpg",
+      image: "/project_04.png",
       techStack: ["Python", "Flask", "React.js", "Tailwind CSS", "Scikit-Learn"],
       githubUrl: "https://github.com/Ajay-Sharma-20/CareerGuidanceProject",
       demoUrl: "https://github.com/Ajay-Sharma-20/CareerGuidanceProject"
@@ -28,7 +28,7 @@ function Project() {
       title: "TubeMark - YouTube Timestamp Bookmark",
       category: "Chrome Extension",
       info: "Browser extension allowing users to save timestamped notes directly while watching YouTube videos for quick productivity and study reference.",
-      image: "/project_pic.jpg",
+      image: "/project_02.png",
       techStack: ["JavaScript", "Chrome API", "Tailwind CSS", "Manifest V3"],
       githubUrl: "https://github.com/sajaysharma",
       demoUrl: ""
@@ -38,11 +38,50 @@ function Project() {
       title: "Smart Intruder Detection System",
       category: "IoT & Computer Vision",
       info: "Security surveillance system leveraging OpenCV motion detection logic for real-time intruder monitoring and automated alert triggers.",
-      image: "/project_pic.jpg",
+      image: "/project_03.jpg",
       techStack: ["Python", "OpenCV", "Computer Vision"],
       githubUrl: "https://github.com/sajaysharma",
       demoUrl: ""
-    }
+    },
+
+{
+  id: 5,
+  title: "MarineSoft Vertex CRM",
+  category: "Full-Stack Enterprise CRM",
+  info: "Enterprise-grade business automation and outbound telecalling CRM featuring role-based dashboards, deterministic lead distribution, bulk lead assignment, high-throughput lead ingestion, and a mobile-optimized telecaller hub.",
+  image: "/project_crm.png",
+  techStack: [
+    "React 18",
+    "Laravel 13",
+    "PHP 8.3",
+    "MySQL 8",
+    "Tailwind CSS",
+    "REST API"
+  ],
+  githubUrl: "",
+  demoUrl: "",
+  isPrivate: true,
+  projectType: "Enterprise Application"
+},
+{
+  id: 6,
+  title: "Tradescape - Trader Risk Dashboard",
+  category: "Full-Stack Trading Dashboard",
+  info: "A responsive trading risk management dashboard that dynamically analyzes trade performance, calculates real-time P&L, win rate, drawdown, daily loss limits, and account compliance status with intelligent risk indicators.",
+  image: "/project_tradescape.png",
+  techStack: [
+    "React.js",
+    "Vite",
+    "Tailwind CSS",
+    "Lucide React",
+    "Recharts",
+    "JavaScript"
+  ],
+  githubUrl: "https://github.com/Ajay-Sharma-20/Tradescape-Risk-Dashboard",
+  demoUrl: "https://tradescape-risk-dashboard.netlify.app/",
+  projectType: "Financial Analytics & Risk Management"
+}
+
   ];
 
   return (
